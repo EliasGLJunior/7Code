@@ -1,0 +1,118 @@
+/*Limpar formatações padrão*/
+/*Tags*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #E6E6E6;
+}
+h2{
+	color: #707B7C ;
+}
+/*IDS*/
+#area-cabecalho{
+	width: 100%;
+	background: #707B7C;
+	padding: 15px;
+	text-align: center;
+	position: relative;
+}
+#area-logo{
+	font-size: 46px!important;
+}
+#area-logo, #area-menu{
+	padding: 10px;
+}
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+#area-rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+#caixa-primaria{
+	width:  270px;
+	float: left;
+	margin: 0 0 20px 3%;
+}
+#caixa-secundaria{
+	width:  270px;
+	float: left;
+	margin: 0 0 20px 5px;
+}
+#caixa-terciaria{
+	width:  270px;
+	float: left;
+	margin: 0 0 20px 5px;
+}
+#limpar{
+	clear: both;
+}
+/*Classes*/
+.seven{
+	color: #27AE60;
+}
+.code{
+	color: #2471A3;
+}
+.slide{
+	padding: 20px;
+	background: #FFF;
+	margin-bottom: 20px;
+}
+.sobre-nos{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+}
+.portfolio{
+	padding: 20px;
+	background: #FFF;
+	margin-bottom: 20px;
+}
+.contato{
+	clear: both;
+	padding: 20px;
+	background: #FFF;
+	margin-bottom: 20px;
+}
+.caixa-conteudo{
+	background: #FFF;
+	padding: 5px;
+	margin-top: 5px;
+}
+.titulo{
+	font-size: 1em;
+	background: #294C71;
+	color: #FFF;
+	padding: 5px;
+}
+.clear{
+	clear: both;
+}
+/*Links*/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #707B7C;
+}
+a:hover{
+	text-decoration: underline;
+}
+#area-cabecalho a:link,#area-cabecalho a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+	color: #707B7C;
+	background-color: #FFF;
+	text-decoration: none;
+}
